@@ -1,0 +1,656 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>InstaThrift</title>
+  <link rel="icon" type="image/x-icon" href="./images/final_logo-removebg-preview.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-color py-3 pt-lg-4 px-4">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-bolder text-main" href="1.html">InstaThrift</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link  text-main fw-medium mx-2" aria-current="page" href="1.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-main fw-medium mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Men
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="shop.html">Shirts & T's</a></li>
+              <li><a class="dropdown-item" href="shop.html">Jeans</a></li>
+              <li><a class="dropdown-item" href="shop.html">Footwear</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="shop.html">Shop All</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-main fw-medium mx-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Women
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="shop.html">Tops & T's</a></li>
+              <li><a class="dropdown-item" href="shop.html">Dresses</a></li>
+              <li><a class="dropdown-item" href="shop.html">Shorts & Skirts</a></li>
+              <li><a class="dropdown-item" href="shop.html">Footwear</a></li>
+              <li><hr class="dropdown-divider"></li>
+              
+              <li><a class="dropdown-item" href="shop.html">Shop All</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex align-items-center" role="search">
+          <input class="form-control text-main mr-2 px-4 rounded-5 search-bar" type="search" placeholder="Search" aria-label="Search">
+          <a href="#"><i class="fas fa-search text-main fw-bolder mx-3 py-3 fs-4 "></i></a>
+        </form>
+        <a href="login.html"><i class="fa-regular fa-user text-main fw-bolder mr-3 py-3 fs-4 "></i></a>
+        <i class=""></i>
+        <a href="shopingCart.html"><i class="fa-solid fa-cart-shopping text-main fw-bolder mx-3 py-3 fs-4 "></i><span id="Cart_size">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navigation ends -->
+  <!-- hero section starts -->
+  <section class="bg-main bg-color hero-section">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="order-1 order-lg-0 text-center text-lg-start mt-3 mt-lg-0 col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+          <h1 class="fw-bolder text-capitalize text-white ">We collect High Quality Threads</h1>
+          <p class="mt-3 mb-5 para-width text-main">GET POPULAR BRANDS AT UNBEATABLE PRICES. <br>START THRIFTING UNDER RS. 499
+          </p>
+          <div class="text-center w-100 text-md-start">
+            <button class="text-capitalize btn my-btn px-5 py-2 rounded-full" >
+              <a class=" text-light" href="shop.html">SHOP NOW</a></button>
+          </div>
+        </div>
+
+
+        <div class="order-0 col-12 col-md-12 col-lg-6">
+          <div class="text-center text-lg-end">
+            <video src="./images/video-main.mp4" loop muted autoplay class="hero-video--section">
+              video is there!
+            </video>
+          </div>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1696082983">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"></path>
+        </svg>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- hero section ends -->
+
+  <!-- service section starts -->
+  <section class="service-section">
+    <div class="container text-center fw-bold common-title">
+      <h2 class="common-heading text-main">Deals You Can't Ingore</h2>
+      <hr class="w-25 mx-auto">
+    </div>
+    <div class="container mt-5 mb-5">
+      <div class="row g-5">
+        <div class="col-12 col-lg-4 col-md-12">
+          <div class="text-center p-5 rounder-4 card-box ">
+            <img src="./images/yeezy350.webp" class="img-fluid" width="200px "></img>
+            <h5 class="my-3 fw-normal">Yeezy 350</h5>
+            <p class="mb-5">
+              adidas Yeezy Boost 350 V2 'Zebra' CP9654
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="" class="icon-span rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-12">
+          <div class="text-center p-5 rounder-4 card-box shadow">
+            <img src="./images/nike.gif" class="img-fluid" width="200px"></img>
+            <h5 class="my-3 fw-normal">Nike AirMax z700</h5>
+            <p class="mb-5">
+              Nike Air Max CB '94 OG 'Black Pure Purple 2023' FQ8233-001
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="" class="icon-span rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-12">
+          <div class="text-center p-5 rounder-4 card-box ">
+            <img src="./images/gucci.gif" class="img-fluid" width="200px"></img>
+            <h5 class="my-3 fw-normal">gucci Screener</h5>
+            <p class="mb-5">
+              Gucci Screener 'GG Canvas - Denim Ivory' 577684-2KQ40-4467
+            </p>
+            <div class="d-flex justify-content-center align-items-center">
+              <a href="" class="icon-span rounded-circle d-flex justify-content-center align-items-center">
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- service section ends -->
+  <!-- digital product usage starts -->
+  <section class=" bg-color more-info-section ">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-12 col-md-12 col-lg-6 img-section ">
+          <figure>
+            <img src="./images/phone.gif" alt="" class="img-fluid">
+          </figure>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 d-flex flex-column justify-content-center align-items-start">
+          <h2 class="fw-bolder text-capitalize text-white ">Start trading your threads</h2>
+          <p class="mt-3 mb-5 para-width text-white">Lorem Ipsum has been
+            the industry's standard
+            dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type
+            specimen book.
+          </p>
+          <div class="text-center w-100 text-md-start">
+            <a href="sell.html">
+            <button class="text-capitalize btn my-btn px-5 py-2" data-bs-toggle="tooltip" data-bs-placement="top"
+              data-bs-custom-class="custom-tooltip" data-bs-title="Get best services ">
+             Trade Now </button></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+  <!-- digital product usage ends -->
+
+  <!-- online mode section start -->
+  <section>
+    <div class="container text-center fw-bold common-title mt-5">
+      <h2 class="common-heading text-main"> Generating New Customers Via <br> Online mode</h2>
+      <hr class="w-25 mx-auto">
+    </div>
+    <div class="container my-5">
+      <div class="row g-5">
+        <div class="col-12 col-md-12 col-lg-6 ">
+          <div class="d-flex px-3 py-3 shadow">
+            <img src="./images/phone.gif" alt="" class="img-fluid d-md-block d-none mx-3  " width="150px">
+            <div>
+              <p class="fw-bolder mb-3"> Social Media Advertising </p>
+              <p class="py-2 fs-6 text-main">
+                Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and
+                LinkedIn. Target specific demographics to connect with potential customers interested in
+                your services.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 ">
+          <div class="d-flex px-3 py-3 shadow">
+            <img src="./images/phone.gif" alt="" class="img-fluid d-md-block d-none mx-3  " width="150px">
+            <div>
+              <p class="fw-bolder mb-3"> Influencer Marketing </p>
+              <p class="py-2 fs-6 text-main">
+                Partner with influential individuals or bloggers in your industry to tap into their audience.
+                Through sponsored posts or endorsements, you can generate interest and attract new customers
+                to your online channels.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 ">
+          <div class="d-flex px-3 py-3 shadow">
+            <img src="./images/phone.gif" alt="" class="img-fluid d-md-block d-none mx-3  " width="150px">
+            <div>
+              <p class="fw-bolder mb-3">Referral Programs</p>
+              <p class="py-2 fs-6 text-main">Implement a customer referral program. Incentivize existing customers to refer others
+                with
+                rewards like discounts or loyalty points. Word-of-mouth marketing helps acquire new
+                customers.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 ">
+          <div class="d-flex px-3 py-3 shadow">
+            <img src="./images/phone.gif" alt="" class="img-fluid d-md-block d-none mx-3  " width="150px">
+            <div>
+              <p class="fw-bolder mb-3"> Content Marketing</p>
+              <p class="py-2  text-main">
+                Reach a wider audience by creating engaging ads on platforms like Facebook, Instagram and
+                LinkedIn. Target specific demographics to connect with potential customers interested in
+                your services.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- online mode section ends -->
+
+  <!-- testimonial section -->
+  <section class="common-section bg-color py-5 pb-5">
+    <div class="container common-title text-center ">
+      <h2 class="common-heading text-white">What Client Say<br>About Us</h2>
+      <hr class="mx-auto w-25">
+
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide m-5">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner pb-1">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row g-4">
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-4">
+                <div class="d-flex justify-content-center align-items-center">
+                <div class="card" style="width: 18rem;">
+                  <img
+                    src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Angelina Thapa</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                    <div class="mt-3">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <!-- expert section -->
+  <section class="common-section py-5 mb-5">
+    <div class="container common-title text-center ">
+      <h2 class="common-heading">Shop By Category</h2>
+      <hr class="mx-auto w-25">
+
+    </div>
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/jbl1.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="small grey"><i class="fa-solid fa-book-open-reader"></i> : Rs 499</p>
+                  <p class="small grey" >March 30, 2023</p>
+                </div>
+                <h5 class="card-title mb-2">Jeans (Blue)</h5>
+                <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="shop.html" class="btn my-btn px-3">Shop More</a>
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/tw1.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="small grey"><i class="fa-solid fa-book-open-reader"></i> : Rs 199</p>
+                  <p class="small grey" >March 30, 2023</p>
+                </div>
+                <h5 class="card-title mb-2">Plain T shirt (white)</h5>
+                <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="shop.html" class="btn my-btn px-3">Shop More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/hy1.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="small grey"><i class="fa-solid fa-book-open-reader"></i> : Rs 699</p>
+                  <p class="small grey" >March 30, 2023</p>
+                </div>
+                <h5 class="card-title mb-2">Hoodie (Yellow)</h5>
+                <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="shop.html" class="btn my-btn px-3">Shop More</a>
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/jbr1.jfif" class="card-img-top" alt="...">
+              <div class="card-body">
+                <div class="d-flex justify-content-between mb-3">
+                  <p class="small grey"><i class="fa-solid fa-book-open-reader"></i> : Rs 599</p>
+                  <p class="small grey" >March 30, 2023</p>
+                </div>
+                <h5 class="card-title mb-2">Jean (Burgundy)</h5>
+                <p class="card-text mb-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="shop.html" class="btn my-btn px-3">Shop More</a>
+              </div>
+            </div>
+  
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact -->
+  <section class="common-section contact-session text-white bg-color py-5">
+    <div class="custom-shape-divider-top-1696746302">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div class="container common-title text-center pt-5">
+      <h2 class="common-heading text-light">Contact</h2>
+      <hr class="mx-auto w-25">
+    </div>
+
+    <div class="container pb-5">
+      <div class="form-section mx-auto">
+      <form >
+        <div class="mb-3">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <label for="exampleUserFirstName" class="form-label">First Name</label>
+          <input type="text" class="form-control" id="exampleUserFirstName" placeholder="First Name" required>
+            </div>
+            <div class="col-lg-6 col-12">
+              <label for="exampleUserSecondName" class="form-label">Second Name</label>
+          <input type="text" class="form-control" id="exampleUserSecondName" placeholder="Second Name" required>
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    </div>
+  </section>
+<!-- contact ends -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  <script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+</body>
+
+</html>
